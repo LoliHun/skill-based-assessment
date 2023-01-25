@@ -9,9 +9,9 @@ class QOTDServer:
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server.bind((self.host, self.port))
         self.quotes = [
-            "A day without sunshine is like, you know, night.",
-            "Be the change you wish to see in the world.",
-            "Without music, life would be a mistake."
+            "When life give you lemon, you made lemonade.",
+            "If your team is throwing, go abandon the game.",
+            "Git Gud"
         ]
     def listen(self):
         self.server.listen()
